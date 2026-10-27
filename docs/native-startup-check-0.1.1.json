@@ -1,0 +1,12 @@
+{
+  "version": "0.1.1",
+  "executable_sha256": "4cf0e415d27c0954fc99f1156f00622dee983516800e8b0fbfd945c61b5c9551",
+  "default_extraction_cache": true,
+  "cache_prepared_from_verified_bundle": true,
+  "native_files_verified": 5,
+  "dotnet_bundle_extract_override": false,
+  "exit_code": 0,
+  "normal_window_close": true,
+  "hardware_accessed": false,
+  "system_acl_changed": false
+}

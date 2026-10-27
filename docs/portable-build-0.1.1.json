@@ -1,0 +1,23 @@
+{
+  "version": "0.1.1",
+  "executable": "dist/standalone/Edifier.exe",
+  "bytes": 71427958,
+  "sha256": "4cf0e415d27c0954fc99f1156f00622dee983516800e8b0fbfd945c61b5c9551",
+  "self_contained": true,
+  "distribution_file_count": 1,
+  "runtime_identifier": "win-x64",
+  "included_frameworks": [
+    {
+      "name": "Microsoft.NETCore.App",
+      "version": "10.0.14"
+    },
+    {
+      "name": "Microsoft.WindowsDesktop.App",
+      "version": "10.0.14"
+    }
+  ],
+  "native_libraries_embedded": true,
+  "runtime_install_required": false,
+  "trimming": false,
+  "icon_embedded": true
+}

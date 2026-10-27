@@ -1,0 +1,81 @@
+{
+  "version": "0.2.1",
+  "at": "2026-10-26T22:55:30.289404+08:00",
+  "exe_sha256": "1d759d157d9f33c31feb0000e074b10d68edef91c967ef7eafef87a15fe73c8a",
+  "exit_code": 0,
+  "elapsed_seconds": 3.16,
+  "only_exe_copied": true,
+  "dotnet_root_empty": true,
+  "host_confirmed_self_contained": true,
+  "framework_dependent": false,
+  "extracted_native_files": [
+    "D3DCompiler_47_cor3.dll",
+    "PenImc_cor3.dll",
+    "PresentationNative_cor3.dll",
+    "vcruntime140_cor3.dll",
+    "wpfgfx_cor3.dll"
+  ],
+  "icon_sizes": [
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    128,
+    256
+  ],
+  "icon_groups": 1,
+  "embedded_license_documents": 8,
+  "previews_generated": 19,
+  "model_layouts": [
+    {
+      "model": "w820nb-double-gold",
+      "tabs": [
+        "头戴耳机",
+        "降噪与声音",
+        "设置"
+      ],
+      "audioLocation": "home",
+      "wearVisible": false,
+      "cycleVisible": true,
+      "touchVisible": false,
+      "multipointVisible": false,
+      "multipointSwitchVisible": false,
+      "multipointGuideVisible": false
+    },
+    {
+      "model": "lolli-anc",
+      "tabs": [
+        "双耳",
+        "声音",
+        "设置"
+      ],
+      "audioLocation": "settings",
+      "wearVisible": true,
+      "cycleVisible": false,
+      "touchVisible": false,
+      "multipointVisible": true,
+      "multipointSwitchVisible": false,
+      "multipointGuideVisible": true
+    },
+    {
+      "model": "w830nb",
+      "tabs": [
+        "头戴耳机",
+        "降噪与声音",
+        "设置"
+      ],
+      "audioLocation": "home",
+      "wearVisible": false,
+      "cycleVisible": false,
+      "touchVisible": false,
+      "multipointVisible": true,
+      "multipointSwitchVisible": true,
+      "multipointGuideVisible": false
+    }
+  ],
+  "hardware_access": false,
+  "hardware_verified": false
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "executable_sha256": "7369fa75b2852d196298867908a911aaf8a658b308a48663d2f672845347397a",
+  "ordinary_startup_arguments": [],
+  "ordinary_startup_environment_override": false,
+  "native_window_observed": true,
+  "observed_model": "W820NB 双金标版 / offline preview",
+  "observed_tabs": ["头戴耳机", "降噪与声音", "设置"],
+  "agent_performed_interactive_button_test": false,
+  "reason": "User was interacting with the window. Agent input stopped to avoid interference.",
+  "default_cache_note": "The tool-launched process could not create its staging directory under the default user Temp/.net path (error 5). The five verified bundled native DLLs were copied to this executable's default extraction cache with SHA-256 checks. Ordinary startup then succeeded without environment overrides. Fresh extraction to a writable isolated directory passed separately.",
+  "system_acl_changed": false,
+  "persistent_environment_changed": false,
+  "hardware_accessed_by_agent": false,
+  "hardware_verified": false
+}

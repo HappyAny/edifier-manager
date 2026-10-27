@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-26T16:03:33.6038258+00:00",
+  "passed": 7,
+  "failed": 0,
+  "hardwareAccessed": false,
+  "results": [
+    {
+      "scenario": "disconnected",
+      "passed": true
+    },
+    {
+      "scenario": "w820-preview",
+      "passed": true
+    },
+    {
+      "scenario": "lolli-preview",
+      "passed": true
+    },
+    {
+      "scenario": "w830-preview",
+      "passed": true
+    },
+    {
+      "scenario": "repeated-close",
+      "passed": true
+    },
+    {
+      "scenario": "pending-disposal",
+      "passed": true
+    },
+    {
+      "scenario": "failed-disposal",
+      "passed": true
+    }
+  ]
+}

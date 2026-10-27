@@ -1,0 +1,16 @@
+{
+  "version": "0.3.0",
+  "date_local": "2026-10-27",
+  "timezone": "Asia/Singapore",
+  "installed_executable": "%USER_TOOL_DIRECTORY%\\tools\\Edifier.exe",
+  "sha256": "0a2838e3d91784f9aed2756fb1bea17a68c777fcbf4904f98d0c848a01c9afb3",
+  "launched_through_desktop": true,
+  "window_title": "漫步者耳机助手",
+  "observed_version_label": "0.3.0",
+  "observed_connection_state": "未连接",
+  "observed_status": "就绪 · 当前版本尚未完成实机验证",
+  "scan_and_connect_controls_present": true,
+  "bluetooth_scan_invoked": false,
+  "hardware_write_invoked": false,
+  "passed": true
+}

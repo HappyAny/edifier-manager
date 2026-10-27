@@ -1,0 +1,76 @@
+{
+  "version": "0.2.0",
+  "at": "2026-10-26T21:12:53.308898+08:00",
+  "exe_sha256": "9fb60a9317fc897e890ac1ca92c75e80538fa63d4789c9ef3728395c4fadecff",
+  "exit_code": 0,
+  "elapsed_seconds": 2.9,
+  "only_exe_copied": true,
+  "dotnet_root_empty": true,
+  "host_confirmed_self_contained": true,
+  "framework_dependent": false,
+  "extracted_native_files": [
+    "D3DCompiler_47_cor3.dll",
+    "PenImc_cor3.dll",
+    "PresentationNative_cor3.dll",
+    "vcruntime140_cor3.dll",
+    "wpfgfx_cor3.dll"
+  ],
+  "icon_sizes": [
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    128,
+    256
+  ],
+  "icon_groups": 1,
+  "embedded_license_documents": 8,
+  "previews_generated": 21,
+  "model_layouts": [
+    {
+      "model": "w820nb-double-gold",
+      "tabs": [
+        "头戴耳机",
+        "降噪与声音",
+        "设置"
+      ],
+      "audioLocation": "home",
+      "wearVisible": false,
+      "cycleVisible": true,
+      "touchVisible": false,
+      "multipointVisible": false
+    },
+    {
+      "model": "lolli-anc",
+      "tabs": [
+        "双耳",
+        "声音",
+        "触控",
+        "设置"
+      ],
+      "audioLocation": "settings",
+      "wearVisible": true,
+      "cycleVisible": false,
+      "touchVisible": true,
+      "multipointVisible": true
+    },
+    {
+      "model": "w830nb",
+      "tabs": [
+        "头戴耳机",
+        "降噪与声音",
+        "设置"
+      ],
+      "audioLocation": "home",
+      "wearVisible": false,
+      "cycleVisible": false,
+      "touchVisible": false,
+      "multipointVisible": true
+    }
+  ],
+  "hardware_access": false,
+  "hardware_verified": false
+}

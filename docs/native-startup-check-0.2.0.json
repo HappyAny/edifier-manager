@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "executable_sha256": "9fb60a9317fc897e890ac1ca92c75e80538fa63d4789c9ef3728395c4fadecff",
+  "default_extraction_cache": true,
+  "cache_prepared_from_verified_bundle": true,
+  "native_files_verified": 5,
+  "dotnet_bundle_extract_override": false,
+  "exit_code": 0,
+  "normal_window_close": true,
+  "hardware_accessed": false,
+  "system_acl_changed": false,
+  "limitation": "Test process could not create the default native extraction staging directory (error 5); exact bundle files were verified and copied to the version-specific default cache. Fresh extraction passed in an isolated workspace directory."
+}

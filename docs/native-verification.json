@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "captures": [
+    "welcome-light.png",
+    "w820-light-0.png",
+    "w820-light-1.png",
+    "w820-light-3.png",
+    "w820-light-settings-more.png",
+    "w820-dark-0.png",
+    "w820-dark-1.png",
+    "w820-dark-3.png",
+    "w820-dark-settings-more.png",
+    "lolli-light-0.png",
+    "lolli-light-1.png",
+    "lolli-light-2.png",
+    "lolli-light-3.png",
+    "lolli-light-settings-more.png",
+    "lolli-light-touch-more.png",
+    "lolli-light-support.png",
+    "lolli-dark-0.png",
+    "lolli-dark-1.png",
+    "lolli-dark-2.png",
+    "lolli-dark-3.png",
+    "lolli-dark-settings-more.png",
+    "lolli-dark-touch-more.png",
+    "lolli-dark-support.png",
+    "w830-light-0.png",
+    "w830-light-1.png",
+    "w830-light-3.png",
+    "w830-light-settings-more.png",
+    "w830-light-equalizer.png",
+    "w830-dark-0.png",
+    "w830-dark-1.png",
+    "w830-dark-3.png",
+    "w830-dark-settings-more.png",
+    "w830-dark-equalizer.png"
+  ],
+  "layouts": [
+    {
+      "model": "w820nb-double-gold",
+      "tabs": [
+        "\u5934\u6234\u8033\u673A",
+        "\u964D\u566A\u4E0E\u58F0\u97F3",
+        "\u8BBE\u7F6E"
+      ],
+      "audioLocation": "home",
+      "wearVisible": false,
+      "cycleVisible": true,
+      "touchVisible": false,
+      "multipointVisible": false,
+      "multipointSwitchVisible": false,
+      "multipointGuideVisible": false
+    },
+    {
+      "model": "lolli-anc",
+      "tabs": [
+        "\u53CC\u8033",
+        "\u58F0\u97F3",
+        "\u89E6\u63A7",
+        "\u8BBE\u7F6E"
+      ],
+      "audioLocation": "settings",
+      "wearVisible": true,
+      "cycleVisible": false,
+      "touchVisible": true,
+      "multipointVisible": true,
+      "multipointSwitchVisible": false,
+      "multipointGuideVisible": true
+    },
+    {
+      "model": "w830nb",
+      "tabs": [
+        "\u5934\u6234\u8033\u673A",
+        "\u964D\u566A\u4E0E\u58F0\u97F3",
+        "\u8BBE\u7F6E"
+      ],
+      "audioLocation": "home",
+      "wearVisible": false,
+      "cycleVisible": false,
+      "touchVisible": false,
+      "multipointVisible": true,
+      "multipointSwitchVisible": true,
+      "multipointGuideVisible": false
+    }
+  ],
+  "licenses": 8,
+  "bluetoothAccessed": false,
+  "audioAccessed": false,
+  "window": {
+    "Width": 620,
+    "Height": 680
+  }
+}

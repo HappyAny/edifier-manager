@@ -1,0 +1,248 @@
+{
+  "utc": "2026-10-26T15:59:09.2995345+00:00",
+  "passed": 60,
+  "failed": 0,
+  "hardwareVerified": false,
+  "results": [
+    {
+      "name": "Captured W820NB packets decode and re-encode exactly",
+      "passed": true
+    },
+    {
+      "name": "V2 plain and XOR packets match independent fixed vectors",
+      "passed": true
+    },
+    {
+      "name": "V1 and V2 reject corruption, wrong lengths and unsupported encryption",
+      "passed": true
+    },
+    {
+      "name": "Stream decoding accepts fragmented and combined notifications",
+      "passed": true
+    },
+    {
+      "name": "Decoder recovers after invalid checksum and bounds input",
+      "passed": true
+    },
+    {
+      "name": "V2 length uses both bytes",
+      "passed": true
+    },
+    {
+      "name": "Exact model identity rejects related and unknown products",
+      "passed": true
+    },
+    {
+      "name": "Battery parser preserves unknown and single-ear states",
+      "passed": true
+    },
+    {
+      "name": "Unknown capability groups expose no writable options",
+      "passed": true
+    },
+    {
+      "name": "W820NB settings are backed up before writes and verified",
+      "passed": true
+    },
+    {
+      "name": "Lolli v2 ANC and touch settings use the TWS profile",
+      "passed": true
+    },
+    {
+      "name": "V2 ANC group comes from the status response",
+      "passed": true
+    },
+    {
+      "name": "Unknown wear detection group cannot be written",
+      "passed": true
+    },
+    {
+      "name": "Every value is validated before the first write",
+      "passed": true
+    },
+    {
+      "name": "Backup failure prevents all device writes",
+      "passed": true
+    },
+    {
+      "name": "Readback mismatch stops a batch and requires reconnect",
+      "passed": true
+    },
+    {
+      "name": "Restore rejects device, firmware, capability, protocol and preview mismatches",
+      "passed": true
+    },
+    {
+      "name": "Missing readback disables a setting before mutation",
+      "passed": true
+    },
+    {
+      "name": "Cancelled operations do not write",
+      "passed": true
+    },
+    {
+      "name": "W830NB identifies both official service families without accepting related products",
+      "passed": true
+    },
+    {
+      "name": "Multipoint decodes legacy and indexed status and preserves the index",
+      "passed": true
+    },
+    {
+      "name": "W830NB reads headset battery and independently reported ANC modes",
+      "passed": true
+    },
+    {
+      "name": "Lolli multipoint uses indexed payload and restores from its automatic backup",
+      "passed": true
+    },
+    {
+      "name": "Single-ear and unsupported multipoint operations cannot write",
+      "passed": true
+    },
+    {
+      "name": "Unrecognized multipoint responses do not expose a writable setting",
+      "passed": true
+    },
+    {
+      "name": "Multipoint restart happens last and remains unconfirmed until a fresh connection",
+      "passed": true
+    },
+    {
+      "name": "An acknowledgement without a readable multipoint state is not success",
+      "passed": true
+    },
+    {
+      "name": "Multipoint mismatch and backup format mismatch stop further writes",
+      "passed": true
+    },
+    {
+      "name": "A failed backup or invalid multipoint value prevents the write",
+      "passed": true
+    },
+    {
+      "name": "Lolli 1.0.9 ANC transitions tolerate stale reads and omit inactive ambient gain",
+      "passed": true
+    },
+    {
+      "name": "Lolli ambient backup restores from a mode that does not report gain",
+      "passed": true
+    },
+    {
+      "name": "Stored gain is verified in ambient mode before returning to ANC",
+      "passed": true
+    },
+    {
+      "name": "Persistent ANC mismatch is explicit and never retries a write",
+      "passed": true
+    },
+    {
+      "name": "Incorrect ambient gain blocks the final ANC write",
+      "passed": true
+    },
+    {
+      "name": "Unreadable ANC after a write cannot be accepted as success",
+      "passed": true
+    },
+    {
+      "name": "ANC no-op creates no write or uncertainty",
+      "passed": true
+    },
+    {
+      "name": "Observed Lolli capabilities expose EQ50 and all six touch slots without inventing sensitivity",
+      "passed": true
+    },
+    {
+      "name": "Nested touch cycles use the selected action and preserve both the parent and mask on restore",
+      "passed": true
+    },
+    {
+      "name": "Invalid or incomplete touch cycles reject the whole batch before any write",
+      "passed": true
+    },
+    {
+      "name": "A missing nested touch mask cannot be overwritten as a simple action",
+      "passed": true
+    },
+    {
+      "name": "Touch and sensitivity writes require both earbuds online",
+      "passed": true
+    },
+    {
+      "name": "New prompt protocol carries its reported group and setting position",
+      "passed": true
+    },
+    {
+      "name": "Malformed and unknown prompt responses provide no editable prompt values",
+      "passed": true
+    },
+    {
+      "name": "Sensitivity validates the reported range and preserves the index",
+      "passed": true
+    },
+    {
+      "name": "Name changes validate UTF8 bytes and read the new name back",
+      "passed": true
+    },
+    {
+      "name": "A name acknowledgement without the target readback remains uncertain",
+      "passed": true
+    },
+    {
+      "name": "Renamed device identities persist by address digest and invalid records are ignored",
+      "passed": true
+    },
+    {
+      "name": "Shutdown timer handles high-byte durations and cancellation without putting it into batch settings",
+      "passed": true
+    },
+    {
+      "name": "A decrementing timer is accepted but a disabled timer is not accepted as an active timer",
+      "passed": true
+    },
+    {
+      "name": "Device actions are capability gated, backed up, sent once, and require reconnection",
+      "passed": true
+    },
+    {
+      "name": "A device action with a lost acknowledgement is not reported as completed",
+      "passed": true
+    },
+    {
+      "name": "LDAC is a separate operation and does not silently restore from a general settings backup",
+      "passed": true
+    },
+    {
+      "name": "Custom EQ parses independent fixed packets and rejects malformed bands",
+      "passed": true
+    },
+    {
+      "name": "Custom EQ edits validate all bands before writing and confirm each changed band",
+      "passed": true
+    },
+    {
+      "name": "Custom EQ mismatch stops after the first band without retries or false success",
+      "passed": true
+    },
+    {
+      "name": "Four-byte and banked custom EQ packets preserve frequencies and bank identity",
+      "passed": true
+    },
+    {
+      "name": "Variable-count EQ honors the returned count and rejects duplicate or excessive band indexes",
+      "passed": true
+    },
+    {
+      "name": "Custom EQ reset is read back and gain units follow the device group",
+      "passed": true
+    },
+    {
+      "name": "Every new operation fails closed when the backup cannot be written",
+      "passed": true
+    },
+    {
+      "name": "Finder audio has bounded duration and amplitude with the unselected channel silent",
+      "passed": true
+    }
+  ]
+}

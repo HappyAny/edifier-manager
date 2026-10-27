@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>Edifier</AssemblyName>
+    <Version>0.3.0</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/app.ico</ApplicationIcon>
+    <Product>漫步者耳机助手</Product>
+    <Description>W820NB、W830NB 与 Lolli ANC 的非官方 Windows 管理工具</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets/app.ico"/>
+    <EmbeddedResource Include="../../LICENSE" LogicalName="EdifierManager.Licenses.Project.txt"/>
+    <EmbeddedResource Include="../../THIRD-PARTY-NOTICES.md" LogicalName="EdifierManager.Licenses.Notices.txt"/>
+    <EmbeddedResource Include="../../third-party/CsWinRT-LICENSE.txt" LogicalName="EdifierManager.Licenses.CsWinRT.txt"/>
+    <EmbeddedResource Include="../../third-party/Windows-SDK-License.rtf" LogicalName="EdifierManager.Licenses.WindowsSDK.rtf"/>
+    <EmbeddedResource Include="../../third-party/DotNet-Runtime-10.0.14.txt" LogicalName="EdifierManager.Licenses.DotNet.txt"/>
+    <EmbeddedResource Include="../../third-party/DotNet-Runtime-ThirdPartyNotices-10.0.14.txt" LogicalName="EdifierManager.Licenses.DotNetNotices.txt"/>
+    <EmbeddedResource Include="../../third-party/DotNet-Desktop-10.0.14.txt" LogicalName="EdifierManager.Licenses.Wpf.txt"/>
+    <EmbeddedResource Include="../../third-party/mEDIFIER-MIT.txt" LogicalName="EdifierManager.Licenses.Medifier.txt"/>
+  </ItemGroup>
+</Project>
